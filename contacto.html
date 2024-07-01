@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - El Rincón del Sorrentino</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <link rel="stylesheet" href="css/contacto.css"> <!-- Archivo CSS específico de contacto -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <!-- Menú de navegación -->
+        <nav class="navbar-titulo">
+            <div class="nav-item">
+                <i class="fas fa-user-plus"></i>
+                <a href="#">Crear Cuenta</a>
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-sign-in-alt"></i>
+                <a href="#">Iniciar Sesión</a>
+            </div>
+            <div class="nav-item">
+                <i class="fas fa-shopping-cart"></i>
+                <a href="#">0 - $0,00</a>
+            </div>
+        </nav>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/pastalogo.png" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Promos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contenido de la página de contacto -->
+        <section class="contacto">
+            <h2>¡Contáctanos!</h2>
+            <div class="formulario">
+                <!-- Aquí va el formulario de contacto -->
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+            <div class="informacion-contacto">
+                <!-- Información de contacto -->
+                <h3>Información de Contacto</h3>
+                <p>Sucursales:</p>
+                <ul>
+                    <li>Av. Alberdi 1051, Río Cuarto, Córdoba, Argentina</li>
+                </ul>
+                <div class="mapa">
+                    <!-- Aquí va el mapa de Google Maps -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3440.787502059034!2d-64.33875068442573!3d-33.13008908089077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x942e95ce0d74f1dd%3A0x3200e26eb57001cd!2sAv.%20Alberdi%201051%2C%20X5800HJF%20R%C3%ADo%20Cuarto%2C%20C%C3%B3rdoba!5e0!3m2!1sen!2sar!4v1623683338043!5m2!1sen!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <!-- Pie de página -->
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="img/pastalogo.png" alt="El Rincon del Sorrentino" class="footer-logo">
+            </div>
+            <div class="footer-section">
+                <h3>Pastas Artesanales</h3>
+                <p>Calidad y prestigio desde 1943...<br>Gracias por su visita</p>
+            </div>
+            <div class="footer-section">
+                <h3>Visítanos</h3>
+                <p>Av. Alberdi 1051<br>Río Cuarto / Cordoba / Argentina</p>
+            </div>
+            <div class="footer-section">
+                <h3>Comunícate</h3>
+                <p>(0358) 4249046<br>info@elrincondelsorrentino.com.ar</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2024 - El Rincon del Sorrentino</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript opcional para algún comportamiento dinámico -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
