@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar-titulo">
+            <div class="nav-item">
+                <i class="fas fa-user-plus"></i>
+                <a href="registro.html">Crear Cuenta</a>
+              </div>
+              <div class="nav-item">
+                <i class="fas fa-sign-in-alt"></i>
+                <a href="inicio-secion.html">Iniciar Sesión</a>
+              </div>
+              <div class="nav-item">
+                <i class="fas fa-shopping-cart"></i>
+                <a href="#">0 - $0,00</a>
+              </div>
+        </nav>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/pastalogo.png" alt="">
+            </div>
+            <ul class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="#">Promos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Inicio de Sesión</h2>
+    <form id="formularioInicioSesion">
+        <label for="loginUsuario">Nombre de Usuario:</label>
+        <input type="text" id="loginUsuario" required>
+        <br>
+        <label for="loginContrasena">Contraseña:</label>
+        <input type="password" id="loginContrasena" required>
+        <br>
+        <button type="submit">Iniciar Sesión</button>
+    </form>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
